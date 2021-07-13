@@ -1,0 +1,56 @@
+#Author: your.email@your.domain.com
+#Keywords Summary :
+#Feature: List of scenarios.
+#Scenario: Business rule through list of steps with arguments.
+#Given: Some precondition step
+#When: Some key actions
+#Then: To observe outcomes or validation
+#And,But: To enumerate more Given,When,Then steps
+#Scenario Outline: List of steps for data-driven as an Examples and <placeholder>
+#Examples: Container for s table
+#Background: List of steps run before each of the scenarios
+#""" (Doc Strings)
+#| (Data Tables)
+#@ (Tags/Labels):To group Scenarios
+#<> (placeholder)
+#""
+## (Comments)
+#Sample Feature Definition Template
+Feature: Login Feature
+  I want to use this template for my feature file
+
+  Scenario: Login Valid Account                              [90m# Loginfeature.feature:24[0m
+    [32mGiven [0m[32mI want to use "[0m[32m[1mChrome[0m[32m"[0m                             [90m# LoginSteps.i_want_to_use(String)[0m
+    [32mAnd [0m[32mI want to login to page "[0m[32m[1mhttp://demo.guru99.com/v4/[0m[32m"[0m [90m# LoginSteps.i_want_to_login_to_page(String)[0m
+    [32mWhen [0m[32mI input username as "[0m[32m[1mmngr340943[0m[32m"[0m                    [90m# LoginSteps.i_input_username_as(String)[0m
+    [32mAnd [0m[32mI input password as "[0m[32m[1mrUpyjEd[0m[32m"[0m                        [90m# LoginSteps.i_input_password_as(String)[0m
+    [32mAnd [0m[32mI Click to login button[0m                              [90m# LoginSteps.i_Click_to_login_button()[0m
+    [32mThen [0m[32mI can see the home page[0m                             [90m# LoginSteps.i_can_see_the_home_page()[0m
+#Author: your.email@your.domain.com
+#Keywords Summary :
+#Feature: List of scenarios.
+#Scenario: Business rule through list of steps with arguments.
+#Given: Some precondition step
+#When: Some key actions
+#Then: To observe outcomes or validation
+#And,But: To enumerate more Given,When,Then steps
+#Scenario Outline: List of steps for data-driven as an Examples and <placeholder>
+#Examples: Container for s table
+#Background: List of steps run before each of the scenarios
+#""" (Doc Strings)
+#| (Data Tables)
+#@ (Tags/Labels):To group Scenarios
+#<> (placeholder)
+#""
+## (Comments)
+#Sample Feature Definition Template
+Feature: Login Feature
+  I want to use this template for my feature file
+
+  Scenario: Login Valid Account                              [90m# Loginfeature2.feature:24[0m
+    [32mGiven [0m[32mI want to use "[0m[32m[1mFirefox[0m[32m"[0m                            [90m# LoginSteps.i_want_to_use(String)[0m
+    [32mAnd [0m[32mI want to login to page "[0m[32m[1mhttp://demo.guru99.com/v4/[0m[32m"[0m [90m# LoginSteps.i_want_to_login_to_page(String)[0m
+    [32mWhen [0m[32mI input username as "[0m[32m[1mmngr340943[0m[32m"[0m                    [90m# LoginSteps.i_input_username_as(String)[0m
+    [32mAnd [0m[32mI input password as "[0m[32m[1mrUpyjEd[0m[32m"[0m                        [90m# LoginSteps.i_input_password_as(String)[0m
+    [32mAnd [0m[32mI Click to login button[0m                              [90m# LoginSteps.i_Click_to_login_button()[0m
+    [32mThen [0m[32mI can see the home page[0m                             [90m# LoginSteps.i_can_see_the_home_page()[0m

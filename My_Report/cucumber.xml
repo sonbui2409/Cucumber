@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="18.276294">
+<testcase classname="Login Feature" name="Login Valid Account" time="9.764079">
+<system-out><![CDATA[Given I want to use "Chrome"................................................passed
+And I want to login to page "http://demo.guru99.com/v4/"....................passed
+When I input username as "mngr340943".......................................passed
+And I input password as "rUpyjEd"...........................................passed
+And I Click to login button.................................................passed
+Then I can see the home page................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Feature" name="Login Valid Account" time="8.512215">
+<system-out><![CDATA[Given I want to use "Firefox"...............................................passed
+And I want to login to page "http://demo.guru99.com/v4/"....................passed
+When I input username as "mngr340943".......................................passed
+And I input password as "rUpyjEd"...........................................passed
+And I Click to login button.................................................passed
+Then I can see the home page................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
