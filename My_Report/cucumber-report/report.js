@@ -128,7 +128,7 @@ formatter.match({
   "location": "LoginSteps.i_want_to_use(String)"
 });
 formatter.result({
-  "duration": 3593997500,
+  "duration": 2975589700,
   "status": "passed"
 });
 formatter.match({
@@ -141,7 +141,7 @@ formatter.match({
   "location": "LoginSteps.i_want_to_login_to_page(String)"
 });
 formatter.result({
-  "duration": 4309653600,
+  "duration": 7043476700,
   "status": "passed"
 });
 formatter.match({
@@ -154,7 +154,7 @@ formatter.match({
   "location": "LoginSteps.i_input_username_as(String)"
 });
 formatter.result({
-  "duration": 132634600,
+  "duration": 128110600,
   "status": "passed"
 });
 formatter.match({
@@ -167,25 +167,25 @@ formatter.match({
   "location": "LoginSteps.i_input_password_as(String)"
 });
 formatter.result({
-  "duration": 127399600,
+  "duration": 91210900,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.i_Click_to_login_button()"
 });
 formatter.result({
-  "duration": 1349646700,
+  "duration": 2172772700,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.i_can_see_the_home_page()"
 });
 formatter.result({
-  "duration": 7587500,
+  "duration": 8504200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 243159300,
+  "duration": 107667100,
   "status": "passed"
 });
 formatter.uri("Loginfeature2.feature");
@@ -318,7 +318,7 @@ formatter.match({
   "location": "LoginSteps.i_want_to_use(String)"
 });
 formatter.result({
-  "duration": 4109845700,
+  "duration": 3963795000,
   "status": "passed"
 });
 formatter.match({
@@ -331,7 +331,7 @@ formatter.match({
   "location": "LoginSteps.i_want_to_login_to_page(String)"
 });
 formatter.result({
-  "duration": 2628599900,
+  "duration": 2866071100,
   "status": "passed"
 });
 formatter.match({
@@ -344,7 +344,7 @@ formatter.match({
   "location": "LoginSteps.i_input_username_as(String)"
 });
 formatter.result({
-  "duration": 53046000,
+  "duration": 61722100,
   "status": "passed"
 });
 formatter.match({
@@ -357,25 +357,25 @@ formatter.match({
   "location": "LoginSteps.i_input_password_as(String)"
 });
 formatter.result({
-  "duration": 20359700,
+  "duration": 19635900,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.i_Click_to_login_button()"
 });
 formatter.result({
-  "duration": 1063792600,
+  "duration": 1995065200,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.i_can_see_the_home_page()"
 });
 formatter.result({
-  "duration": 2153400,
+  "duration": 2727500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 634418100,
+  "duration": 612651500,
   "status": "passed"
 });
 });

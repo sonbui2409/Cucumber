@@ -20,7 +20,8 @@ import cucumber.api.junit.Cucumber;
 					"json:My_Report/cucumber.json",
 					"junit:My_Report/cucumber.xml",
 					"html:My_Report/cucumber-report" //report of cucumber
-					//"com.cucumber.listener.ExtentCucumberFormatter:My_Report/cucumber-ExetentReport.html" //report following extent report format
+					,"com.cucumber.listener.ExtentCucumberFormatter:My_Report/ExetentReport.html" //report following extent report format
+					
 			}
 )
 
