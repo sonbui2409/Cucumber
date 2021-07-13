@@ -19,14 +19,14 @@ import cucumber.api.junit.Cucumber;
 					"pretty:My_Report/cucumber-pretty.txt",
 					"json:My_Report/cucumber.json",
 					"junit:My_Report/cucumber.xml",
-					"html:My_Report/cucumber-report", //report of cucumber
-					"com.cucumber.listener.ExtentCucumberFormatter:My_Report/cucumber-ExetentReport.html" //report following extent report format
+					"html:My_Report/cucumber-report" //report of cucumber
+					//"com.cucumber.listener.ExtentCucumberFormatter:My_Report/cucumber-ExetentReport.html" //report following extent report format
 			}
 )
 
 public class testRunner {
 		
-		@AfterClass
+		//@AfterClass
 		public static void writeReport() {
 			Reporter.loadXMLConfig(new File(System.getProperty("user.dir" + "/Extent-Config.xml")));
 			
